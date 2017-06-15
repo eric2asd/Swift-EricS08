@@ -142,7 +142,6 @@ class MyClass5 {
     var x : Int = 0 {
         willSet(newx){
             print("before : \(x) --> \(newx)")
-            
         }
         didSet {
             print("after: \(x)")
